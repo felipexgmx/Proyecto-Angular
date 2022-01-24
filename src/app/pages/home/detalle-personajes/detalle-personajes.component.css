@@ -1,0 +1,67 @@
+.credencial{
+    color: #00b4e1;
+    font-family: 'Source Sans Pro';
+    background-color: #002e4c;
+    width: 24cm;
+    height: 15cm;
+    position: relative;
+    border-radius: 10px;
+      overflow: hidden;
+    z-index: 0;
+  }
+  
+  .heading .logo, .heading .subtitle, .foto, img, .datos{
+    position: absolute;
+    padding-top: 30px !important;
+
+  }
+  .heading{
+    padding-top: 64px !important;
+  }
+  
+  .heading .logo {
+    letter-spacing: -0.4mm;
+    top: -0.7cm;
+    left: 0.6cm;
+    font-size: 1cm;
+  }
+  
+  .datos, .heading .subtitle{
+    list-style: none;
+  }
+  
+  .datos{
+    color: #B0BBC8;
+    bottom: 0.2cm;
+    font-size: 0.50cm;
+    font-weight: 600;
+    left: -0.78cm;
+    letter-spacing: 0.1mm;
+    padding-left: 64px !important;
+    
+  }
+  
+  .heading .subtitle{
+    font-size: 4.6mm;
+    left: 2cm;
+    line-height: 5mm;
+    font-weight: 600;
+    color: #009cc3;
+    
+  }
+  
+  img{
+     top: 25%;
+     left: 38%;   
+     transform: translate(0%, 0%) scale(1.5);
+    z-index: -1;
+  }
+  
+  
+  
+  .foto{
+    height: 5cm;
+    left: 750px;
+    top: 0.2mm;
+    
+  }

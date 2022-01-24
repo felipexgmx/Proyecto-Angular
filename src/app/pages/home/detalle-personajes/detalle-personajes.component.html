@@ -1,0 +1,33 @@
+<div class="credencial">
+    <div class="heading">
+      <h1 class="logo"><strong>HOWARDS</strong></h1>
+      <ul class="subtitle">
+        <li>Casa:</li>
+        <li>{{personaje.casaDeHogwarts}}</li>
+      </ul>
+    </div>
+    
+    
+        <img class="foto" src="{{personaje.imagen}}" alt="" >
+  
+    
+     <img src="https://static.wikia.nocookie.net/esharrypotter/images/a/ae/Hogwartscrest.png" alt="">
+    
+    <ul class="datos">
+        <li>
+          {{personaje.personaje}}
+        </li>
+        <li>
+          Hijos:
+        </li>
+        <li>
+          {{personaje.hijos}}<br>
+        </li>
+        <li>
+          Cantidad de hijos: {{personaje.hijos.length}}
+        </li>
+        <li>
+          Actor: {{personaje.interpretado_por}}
+        </li>
+      </ul>
+  </div>
